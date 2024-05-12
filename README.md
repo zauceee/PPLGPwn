@@ -14,7 +14,7 @@ For more information of which firmwares are supported, visit the link above.
 
 ## How can I do it?
 
-Firstly you'll need to root your LGTV, the root itself it supported in a couple of models, consult in both exploits if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
+Firstly you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
 
