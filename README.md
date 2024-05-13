@@ -34,7 +34,9 @@ wget https://github.com/zauceee/PPLGPwn/releases/download/v1.1/install.sh && sou
 
 3. Setup this custom **Execute** action to any button you'd like:
 
-```cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh```   
+```
+cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh
+```   
 
 4. Save your changes
 
