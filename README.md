@@ -1,5 +1,6 @@
 
-# PPLGPwn
+# PPLGPwn (llbranco mod)
+based on: https://github.com/zauceee/PPLGPwn
 A method of executing PPPwn through rooted LGTV's.
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
@@ -46,8 +47,19 @@ chmod +x ./start.sh
 ```
 ./start.sh
 ```
-
+7.
+edit this file to make the script runs on boot
+```
+/var/lib/webosbrew/startup.sh
+```
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
 !! This exploit stage2 runs SiStro load from usb payload !!
+
+## Plans
+- Installer ( probably something based on https://github.com/stooged/PI-Pwn installer )
+- Start on boot
+- Notifications on your tv (config on install)
+- Retry on error
+- Route TV WiFi to PS4
