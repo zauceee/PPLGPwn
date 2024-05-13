@@ -1,5 +1,5 @@
 
-# PPLGPwn (llbranco mod)
+# PPLGPwn (llbranco mod) only for fw1100
 based on: https://github.com/zauceee/PPLGPwn
 A method of executing PPPwn through rooted LGTV's.
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
@@ -14,9 +14,6 @@ For more information of which firmwares are supported, visit the link above.
 - Device to connect to the TV thru ssh (You can use a phone)
 
 ## How can I do it?
-
-Compatible only with Ps4 fw 11.00 (u can manually edit to other versions)
-
 Firstly you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
