@@ -11,7 +11,8 @@ For more information of which firmwares are supported, visit the link above.
 ## Requirements
 - Rooted LGTV
 - Ethernet cable
-- Device to connect to the TV thru ssh (You can use a phone)
+- Device to connect to the TV thru ssh (You can use a phone) or https://github.com/webosbrew/dev-manager-desktop
+
 
 ## How can I do it?
 Firstly you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
