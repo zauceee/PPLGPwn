@@ -1,4 +1,5 @@
 
+
 # PPLGPwn
 A method of executing PPPwn through rooted LGTV's.
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
@@ -18,34 +19,34 @@ Firstly you'll need to root your LGTV, the root itself it supported by a couple 
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
 
-Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps:
+Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to run the ```install.sh``` present in the releases tab on your TV, do it thru this command:
 
-1.
 ```
-cd /media/internal/downloads
-``` 
-2.
-```
-wget https://github.com/zauceee/PPLGPwn/archive/refs/heads/main.zip
-```
-3.
-```
-unzip main.zip
-```
-4.
-```
-cd PPLGPwn-main
-```
-5.
-```
-chmod +x ./start.sh
-```
-6.
-```
-./start.sh
+wget https://github.com/zauceee/PPLGPwn/archive/refs/heads/main.zip && source ./install.sh
 ```
 
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
+### How can I execute this with just a click of a button?
+1. Head to the [Homebrew Store](https://www.webosbrew.org/) app and download [LG Input Hook](https://repo.webosbrew.org/apps/org.webosbrew.inputhook/)
+
+2. Open the LG Input Hook and head to the link the app gives you in a device that has a web browser (you can also do this in your TV, but it will take more time)
+
+3. Setup this custom **Execute** action to any button you'd like:
+
+```cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh```   
+
+4. Save your changes
+
+**And done!** The button you setup with the custom action execute the exploit everytime you press it!
+
+# NOTES
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
+
 !! This exploit stage2 runs LightningMod's load from usb payload !!
+
+Proudly **🇵🇹** <3
+
+Thanks to the OpenLGTV and the RootMyTV communities that gave us this TV Jailbreak
+Also a thanks to everyone in the PS4 jailbreaking community that gave us the exploits!
+And also thanks to all the contributors!
