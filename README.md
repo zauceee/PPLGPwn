@@ -22,7 +22,7 @@ Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV 
 
 1.
 ```
-cd /media/internal/download
+cd /media/internal/downloads
 ``` 
 2.
 ```
@@ -44,6 +44,11 @@ chmod +x ./start.sh
 ```
 ./start.sh
 ```
+7.
+---
+Stage(1): /media/internal/downloads/PPLGPwn-main/stage1.bin
+Stage(2): /media/internal/downloads/PPLGPwn-main/stage2.bin
+---
 
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
