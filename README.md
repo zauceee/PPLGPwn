@@ -5,7 +5,8 @@ A method of executing PPPwn through rooted LGTV's.
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
 
-<a href='https://ko-fi.com/J3J4Y2DQ4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
+## If you liked my project and want to help me, consider buying me a coffee
+<a href='https://ko-fi.com/J3J4Y2DQ4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dllbranco%26type%3Dpatrons&style=flat-square)](https://patreon.com/llbranco)
 
 It provides a new way of jailbreaking your PS4, using a rooted LGTV.
 For more information of which firmwares are supported, visit the link above.
