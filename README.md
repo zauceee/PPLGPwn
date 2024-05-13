@@ -22,7 +22,7 @@ Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV 
 
 1.
 ```
-cd /media/internal/download
+cd /media/internal/downloads
 ``` 
 2.
 ```
