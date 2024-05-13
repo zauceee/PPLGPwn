@@ -22,7 +22,7 @@ Firstly you'll need to root your LGTV, the root itself it supported by a couple 
 Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to run the ```install.sh``` present in the releases tab on your TV, do it thru this command:
 
 ```
-wget https://github.com/zauceee/PPLGPwn/archive/refs/heads/main.zip && source ./install.sh
+wget https://github.com/zauceee/PPLGPwn/releases/download/v1.1/install.sh && source ./install.sh
 ```
 
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
