@@ -14,6 +14,8 @@ For more information of which firmwares are supported, visit the link above.
 
 ## How can I do it?
 
+Compatible only with Ps4 fw 11.00 (u can manually edit to other versions)
+
 Firstly you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
@@ -26,7 +28,7 @@ cd /media/internal/downloads
 ``` 
 2.
 ```
-wget https://github.com/zauceee/PPLGPwn/archive/refs/heads/main.zip
+wget https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zip
 ```
 3.
 ```
@@ -44,13 +46,8 @@ chmod +x ./start.sh
 ```
 ./start.sh
 ```
-7.
----
-Stage(1): /media/internal/downloads/PPLGPwn-main/stage1.bin
-Stage(2): /media/internal/downloads/PPLGPwn-main/stage2.bin
----
 
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
-!! This exploit stage2 runs LightningMod's load from usb payload !!
+!! This exploit stage2 runs SiStro load from usb payload !!
