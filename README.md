@@ -36,8 +36,7 @@ Firstly you'll need to root your LGTV, the root itself it supported by a couple 
 
 you can follow one of this guide to root your tv
 
-[![guide](https://img.youtube.com/vi/hsqYOoiT12Y/0.jpg)](https://www.youtube.com/watch?v=hsqYOoiT12Y)
-[![guide](https://img.youtube.com/vi/zIOhPblbX9s/0.jpg)](https://www.youtube.com/watch?v=zIOhPblbX9s)
+[![guide](https://img.youtube.com/vi/zYoesrUsIj8/0.jpg)](https://www.youtube.com/watch?v=zYoesrUsIj8)
 
 Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps:
 
@@ -66,9 +65,16 @@ chmod +x ./start.sh
 ./start.sh
 ```
 7.
+to make it run on the boot
 edit this file to make the script runs on boot
 ```
 /var/lib/webosbrew/startup.sh
+```
+8.
+insert this lines in the last line (or after ssh server if you prefer) save and reboot
+```
+cd /media/internal/downloads/PPLGPwn-main
+./start.sh
 ```
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
