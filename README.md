@@ -71,7 +71,7 @@ edit this file to make the script runs on boot
 /var/lib/webosbrew/startup.sh
 ```
 8.
-insert this lines in the last line (or after ssh server if you prefer) save and reboot
+insert this lines in the last line (or after ssh server right under the "fi" if you prefer) save and reboot
 ```
 cd /media/internal/downloads/PPLGPwn-main
 ./start.sh
