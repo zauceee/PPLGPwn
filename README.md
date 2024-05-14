@@ -1,9 +1,21 @@
-
 # PPLGPwn (llbranco mod) only for fw1100
 based on: https://github.com/zauceee/PPLGPwn
 A method of executing PPPwn through rooted LGTV's.
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
+
+# Notice
+me and zauceee (aka kodeine) decided to work and focus on just one project, we have the same goals and working together we will have much more to offer than separately.
+
+If you liked the project, consider following our most updated version at:
+https://github.com/zauceee/PPLGPwn
+
+I will keep this project open but only as an option for just 1 firmware (11.00).
+
+## I installed this version. Is there any compatibility issue with switching to the version from his repository?
+absolutely not, you can change if you wish.
+
+After all, zauceee (aka kodeine) and I will be working together on the same repository
 
 ## If you liked my project and want to help me, consider buying me a coffee
 <a href='https://ko-fi.com/J3J4Y2DQ4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dllbranco%26type%3Dpatrons&style=flat-square)](https://patreon.com/llbranco)
@@ -58,7 +70,7 @@ edit this file to make the script runs on boot
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
 !! This exploit stage2 runs SiStro load from usb payload !!
 
-## Plans
+## Plans ( https://github.com/zauceee/PPLGPwn )
 - Installer ( probably something based on https://github.com/stooged/PI-Pwn installer )
 - Start on boot
 - Notifications on your tv (config on install)
