@@ -40,7 +40,7 @@ cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh
 
 4. Save your changes
 
-**And done!** The button you setup with the custom action execute the exploit everytime you press it!
+**And done!** The button you setup with the custom action will know execute the exploit everytime you press it!
 
 # NOTES
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
