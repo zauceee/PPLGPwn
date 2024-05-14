@@ -25,9 +25,9 @@ Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV 
 wget https://github.com/zauceee/PPLGPwn/releases/download/v1.1/install.sh && source ./install.sh
 ```
 
-### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
+**Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!**
 
-### How can I execute this with just a click of a button?
+## How can I execute this with just a click of a button?
 1. Head to the [Homebrew Store](https://www.webosbrew.org/) app and download [LG Input Hook](https://repo.webosbrew.org/apps/org.webosbrew.inputhook/)
 
 2. Open the LG Input Hook and head to the link the app gives you in a device that has a web browser (you can also do this in your TV, but it will take more time)
