@@ -1,6 +1,9 @@
 # PPLGPwn (llbranco mod) only for fw1100
 based on: https://github.com/zauceee/PPLGPwn
-A method of executing PPPwn through rooted LGTV's (also runs on Fox Electronics, u may need to manually replace the pppwn binary).
+
+A method of executing PPPwn through rooted LGTV's
+(also runs on Fox Electronics, u may need to manually replace the pppwn binary).
+
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
 
