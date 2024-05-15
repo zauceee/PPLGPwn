@@ -8,8 +8,8 @@ cd /media/internal/downloads/PPLGPwn-main
 chmod +x ./pppwn
 
 # send nofification
-luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn!</b><br/>Iniciando PS4 Jailbreak. <br/>by: llbranco."}'
+luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn!</b><br/>Iniciando PS4 Jailbreak. <br/>by: kodeine and llbranco."}'
 
 ./pppwn --interface $interface --fw $firmware --stage1 $stage1 --stage2 $stage2 --auto-retry
 
-luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn!</b><br/>PS4 Pwned. <br/>by: llbranco."}'
+luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn!</b><br/>PS4 Pwned. <br/>by: kodeine and llbranco."}'
