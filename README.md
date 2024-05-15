@@ -77,11 +77,9 @@ cd /media/internal/downloads/PPLGPwn-main
 ./start.sh
 ```
 
-```
-alternative
-```
 
-9.
+### Alternative installer
+
 One command Installer (beta)
 if you are brave (or lazy) you can test our beta installer (no guarantee)
 ```
