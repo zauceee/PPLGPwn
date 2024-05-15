@@ -1,6 +1,6 @@
 # PPLGPwn (llbranco mod) only for fw1100
 based on: https://github.com/zauceee/PPLGPwn
-A method of executing PPPwn through rooted LGTV's.
+A method of executing PPPwn through rooted LGTV's (also runs on Fox Electronics, u may need to manually replace the pppwn binary).
 This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
 
@@ -38,7 +38,7 @@ you can follow this step-by-step guide to root your tv and install PPLGPwn on yo
 
 [![guide](https://img.youtube.com/vi/zYoesrUsIj8/0.jpg)](https://www.youtube.com/watch?v=zYoesrUsIj8)
 
-Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps:
+Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps (default ssh password: alpine):
 
 1.
 ```
@@ -91,6 +91,7 @@ curl -fsSL https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh 
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
+
 !! This exploit stage2 runs SiStro load from usb payload !!
 
 ## Plans ( https://github.com/zauceee/PPLGPwn )
