@@ -76,6 +76,16 @@ insert this lines in the last line (or after sshd server right under the "fi" if
 cd /media/internal/downloads/PPLGPwn-main
 ./start.sh
 ```
+
+
+8.
+if you are brave (or lazy) you can test our beta installer (no guarantee)
+```
+curl -fsSL https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh | sh
+```
+
+
+
 ### Connect your PS4 to your TV through the Ethernet port, and go in your PS4 set up LAN > PPPoE, and the exploit should be working!
 
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
