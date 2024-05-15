@@ -34,7 +34,7 @@ Firstly you'll need to root your LGTV, the root itself it supported by a couple 
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
 
-you can follow one of this guide to root your tv
+you can follow this step-by-step guide to root your tv and install PPLGPwn on your TV
 
 [![guide](https://img.youtube.com/vi/zYoesrUsIj8/0.jpg)](https://www.youtube.com/watch?v=zYoesrUsIj8)
 
