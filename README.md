@@ -81,7 +81,7 @@ cd /media/internal/downloads/PPLGPwn-main
 8.
 if you are brave (or lazy) you can test our beta installer (no guarantee)
 ```
-curl -fsSL https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh | sh
+wget https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh && chmod +x ./install.sh && ./install.sh
 ```
 
 
