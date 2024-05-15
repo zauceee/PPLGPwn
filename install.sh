@@ -1,7 +1,8 @@
 luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn Installing...</b><br/>Project by<br/>zauceee and llbranco."}'
 
-echo "PPLGPWN - Designed for LG WebOS TVs! Ported by Kodeine, with luv <3"
-echo "updated by llbranco"
+echo "PPLGPWN - Designed for LG WebOS TVs. Ported by Kodeine"
+echo "Updated by llbranco"
+echo "githb.com/llbranco/PPLGPwn"
 
 sleep 2
 
@@ -12,7 +13,6 @@ cd /media/internal/downloads
 # remove old release to update
 test -e main.zip && rm main.zip
 test -e PPLGPwn-main && rm -r -f PPLGPwn-main/
---ignore-fail-on-non-empty
 wget https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zip
 unzip main.zip
 cd PPLGPwn-main
