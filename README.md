@@ -77,8 +77,12 @@ cd /media/internal/downloads/PPLGPwn-main
 ./start.sh
 ```
 
+```
+alternative
+```
 
-8.
+9.
+One command Installer (beta)
 if you are brave (or lazy) you can test our beta installer (no guarantee)
 ```
 wget https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh && chmod +x ./install.sh && ./install.sh
