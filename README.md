@@ -1,19 +1,31 @@
 # PPLGPwn (llbranco mod) only for fw1100
-based on: https://github.com/zauceee/PPLGPwn
+Based on: https://github.com/zauceee/PPLGPwn
 
 A method of executing PPPwn through rooted LGTV's
-(also runs on Fox Electronics, u may need to manually replace the pppwn binary).
 
-This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
-https://github.com/xfangfang/PPPwn_cpp
+`LIMITED SUPPORT` to [Fox Electronics](https://foxelectronics.rs/), u may need to [manually replace the pppwn binary](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main/aarch64-linux-musl.zip) if it is aarch64
 
-# Notice
-me and zauceee (aka kodeine) decided to work and focus on just one project, we have the same goals and working together we will have much more to offer than separately.
+This method is using the C++ version of PPPwn, made by xfangxfang [PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp)
 
-If you liked the project, consider following our most updated version at:
+> [!CAUTION]
+> **This project is not compatible with Roku tv, Amazon Fire Stick, Samsung tv or Android tv**
+> .
+> 
+> **Will it ever be compatible?**
+> 
+> I'm not sure, I can't guarantee it, but I don't exclude the possibility
+> 
+> I can't test it (and consequently cant port to it) 'coz I don't have access to any of these devices :(
+```
+```
+
+>[!IMPORTANT]
+> me and [zauceee](https://github.com/zauceee) (aka kodeine) decided to work and focus on just one project, we have the same goals and working together we will have much more to offer than separately.
+> 
+> If you liked the project, consider following our most updated version at:
 https://github.com/zauceee/PPLGPwn
-
-I will keep this project open but only as an option for just 1 firmware (11.00).
+> 
+> I will keep this project open but only as an option for just 1 firmware (11.00) or maybe for testing proposes.
 
 ## I installed this version. Is there any compatibility issue with switching to the version from his repository?
 absolutely not, you can change if you wish.
@@ -30,18 +42,19 @@ For more information of which firmwares are supported, visit the link above.
 - Rooted LGTV
 - Ethernet cable
 - Device to connect to the TV thru ssh (You can use a phone) or https://github.com/webosbrew/dev-manager-desktop
+- default ssh password: `alpine`
 
 
 ## How can I do it?
+
+use this step-by-step guide [![guide](https://img.youtube.com/vi/zYoesrUsIj8/0.jpg)](https://www.youtube.com/watch?v=zYoesrUsIj8)
+and follow the instructions down bellow:
+
 Firstly you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
 ### Root my TV: https://rootmy.tv/
 ### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
 
-you can follow this step-by-step guide to root your tv and install PPLGPwn on your TV
-
-[![guide](https://img.youtube.com/vi/zYoesrUsIj8/0.jpg)](https://www.youtube.com/watch?v=zYoesrUsIj8)
-
-Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps (default ssh password: alpine):
+Secondly, after you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to follow the following steps thru ssh:
 
 1.
 ```
@@ -82,9 +95,10 @@ cd /media/internal/downloads/PPLGPwn-main
 
 
 ### Alternative installer
-
-One command Installer (beta)
-if you are brave (or lazy) you can test our beta installer (no guarantee)
+> [!WARNING]
+> One command Installer (unstable/beta/no warranty in any way/do at your own risk)
+>
+> if you are brave (or lazy) you can test our beta installer (no guarantee)
 ```
 curl -fsSL https://raw.githubusercontent.com/llbranco/PPLGPwn/master/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
