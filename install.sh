@@ -1,4 +1,3 @@
-#!/bin/bash
 luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn Installing...</b><br/>Project by<br/>zauceee and llbranco."}'
 echo "PPLGPWN - Designed for LG WebOS TVs! Ported by Kodeine, with luv <3"
 echo "updated by llbranco"
