@@ -2,11 +2,7 @@ luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPL
 
 echo "PPLGPWN - Designed for LG WebOS TVs. Ported by Kodeine"
 echo "Updated by llbranco"
-echo "githb.com/llbranco/PPLGPwn"
-
-sleep 2
-
-luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPLGPwn Downloading...</b><br/>Project by<br/>zauceee and llbranco."}'
+echo "github.com/llbranco/PPLGPwn"
 
 cd /media/internal/downloads
 
