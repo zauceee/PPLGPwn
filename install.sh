@@ -2,11 +2,10 @@ luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPL
 echo "PPLGPWN - Designed for LG WebOS TVs! Ported by Kodeine"
 echo "updated by llbranco"
 cd /media/internal/downloads
-# remove old release to update
-test -e main.zip && rm main.zip
-test -e PPLGPwn-main && rm -r -f PPLGPwn-main/
-wget https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zip && unzip main.zip
-cd PPLGPwn-main && chmod +x ./start.sh
+wget https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zi
+unzip main.zip
+cd PPLGPwn-main
+chmod +x ./start.sh
 # check if startup lines exist
 if grep -q "#PPLGPwn by llbranco" /var/lib/webosbrew/startup.sh && grep -q "#to remove PPLGPwn from boot, remove the next line" /var/lib/webosbrew/startup.sh && grep -q "./media/internal/downloads/PPLGPwn-main/start.sh" /var/lib/webosbrew/startup.sh; then
     echo "boot script already installed"
