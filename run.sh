@@ -18,15 +18,14 @@ echo -e "${GREEN}
 888        888        888     Y88b  d88P 888        8888P   Y8888 888   Y8888
 888        888        88888888 Y8888P88  888        888P     Y888 888    Y888
 
-Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC}, with luv <3
-With the contribution of ${BLUE}llbranco${NC}!
+Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine & Contributors${NC}, with luv <3
 Version: v1.1
 ${NC}
 ${CYAN}-------
 RUNNING
 -------${NC}
 "
-luna-send -a webosbrew -f -n 1 luna://com.webos.notification/createToast '{"sourceId":"webosbrew","message": "<b>PPLGPwn</b><br/>Starting your Jailbreak. by: Kodeine and llbranco :D"}'
+luna-send -a webosbrew -f -n 1 luna://com.webos.notification/createToast '{"sourceId":"webosbrew","message": "<b>PPLGPwn</b><br/>Starting your Jailbreak. by: Kodeine & Contributors :D"}'
 
 chmod +x ./pppwn
 ./pppwn --interface $interface --fw $firmver --stage1 $stage1 --stage2 $stage2 --auto-retry
