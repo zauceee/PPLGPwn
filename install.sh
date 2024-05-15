@@ -2,8 +2,8 @@ luna-send -f -n 1 luna://com.webos.notification/createToast '{"message": "<b>PPL
 echo "PPLGPWN - Designed for LG WebOS TVs! Ported by Kodeine"
 echo "updated by llbranco"
 cd /media/internal/downloads
-wget -o main.zip https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zip
-unzip main.zip
+wget -O main.zip https://github.com/llbranco/PPLGPwn/archive/refs/heads/main.zip
+unzip -o main.zip
 cd PPLGPwn-main
 chmod +x ./start.sh
 # check if startup lines exist
