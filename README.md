@@ -45,6 +45,7 @@ For more information of which firmwares are supported, visit the link above.
 - Ethernet cable
 - Device to connect to the TV thru ssh (You can use a phone) or https://github.com/webosbrew/dev-manager-desktop
 - default ssh password: `alpine`
+- [follow this if you can't log in](https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f)
 
 
 ## How can I do it?
