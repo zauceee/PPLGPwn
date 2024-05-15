@@ -3,7 +3,9 @@ Based on: https://github.com/zauceee/PPLGPwn
 
 A method of executing PPPwn through rooted LGTV's
 
-`LIMITED SUPPORT` to [Fox Electronics](https://foxelectronics.rs/), u may need to [manually replace the pppwn binary](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main/aarch64-linux-musl.zip) if it is aarch64
+>`LIMITED SUPPORT` to [Fox Electronics](https://foxelectronics.rs/), u may need to [manually replace the pppwn binary](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main/aarch64-linux-musl.zip) if it is aarch64
+>
+> (thx to **Aljelja** for the feedback)
 
 This method is using the C++ version of PPPwn, made by xfangxfang [PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp)
 
