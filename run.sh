@@ -5,7 +5,7 @@ BLUE='\033[0;94m'
 PURPLE='\033[0;95m'
 CYAN='\033[0;96m'
 NC='\033[0m' # No Color
-. /media/internal/downloads/settings.config
+. /media/internal/downloads/PPLGPwn/settings.config
 echo -e "${GREEN}
 
 
