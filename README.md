@@ -8,6 +8,10 @@ For more information of which firmwares are supported, visit the link above.
 
 ![image](https://github.com/zauceee/PPLGPwn/assets/37784801/068d16b5-051e-4f22-bdf7-b0e3b46e6590)
 
+## Changelog v1.2 -- 16/05/2024
+- Added Support for aarch64 TV's
+- New option to select if you want PPLGPwn to start when you turn your TV on (Thanks llbranco for the help!)
+
 ## Requirements
 - Rooted LGTV
 - Ethernet cable
