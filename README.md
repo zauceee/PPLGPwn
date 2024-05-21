@@ -39,7 +39,12 @@ wget https://github.com/zauceee/PPLGPwn/releases/download/v1.2/install.sh && sou
 3. Setup this custom **Execute** action to any button you'd like:
 
 ```
-cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh
+for armv7 architecture
+cd /media/internal/downloads/PPLGPwn && chmod +x ./run-armv7.sh && ./run-armv7.sh
+....
+for aarch64 architecture
+cd /media/internal/downloads/PPLGPwn && chmod +x ./run-arch64.sh && ./run-arch64.sh  
+
 ```   
 
 4. Save your changes
